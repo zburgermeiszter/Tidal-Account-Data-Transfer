@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  tidal:
+    build: .
+    volumes:
+      - ./:/home/user/app
+    entrypoint: python3
